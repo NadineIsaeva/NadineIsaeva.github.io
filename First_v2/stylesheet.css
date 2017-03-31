@@ -1,0 +1,676 @@
+@font-face{
+    font-family: GothamRounded;
+    src: url("fonts/GothamRounded-Bold.otf");
+}
+
+@font-face{
+    font-family: GothamRounded;
+    src: url("fonts/GothamRounded-BoldItalic.otf");
+}
+
+@font-face{
+    font-family: GothamRounded;
+    src: url("fonts/GothamRounded-Book.otf");
+}
+
+@font-face{
+    font-family: GothamRounded;
+    src: url("fonts/GothamRounded-BookItalic.otf");
+}
+@font-face{
+    font-family: GothamRounded;
+    src: url("fonts/GothamRounded-Light.otf");
+}
+
+@font-face{
+    font-family: GothamRounded;
+    src: url("fonts/GothamRounded-LightItalic.otf");
+}
+
+@font-face{
+    font-family: GothamRounded;
+    src: url("fonts/GothamRounded-Medium.otf");
+}
+
+@font-face{
+    font-family: GothamRounded;
+    src: url("fonts/GothamRounded-MediumItalic.otf");
+}
+
+@font-face{
+    font-family: GothamRounded;
+    src: url("fonts/GothamRoundedBold_21016.ttf");
+}
+
+@font-face{
+    font-family: GothamRounded;
+    src: url("fonts/GothamRoundedBook_21018.ttf");
+}
+
+@font-face{
+    font-family: GothamRounded;
+    src: url("fonts/GothamRoundedLight_21020.ttf");
+}
+
+@font-face{
+    font-family: GothamRounded;
+    src: url("fonts/GothamRoundedMedium_21022.ttf");
+}
+
+*, *::after, *::before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    background: url("pictures/pic1.gif") no-repeat center top;
+    background-size: 100%;
+    width: 1280px;
+    height: 745px;
+    margin: auto;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+header .nav-menu {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;;
+    padding: 0;
+    width: 1024px;
+    height: 59px;
+}
+
+header .nav-menu ul {
+    list-style-type: none;
+    display:  inline-block;
+    width: 800px;
+    margin: 0 auto;
+    padding-left: 31px;
+    padding-right: 0px;
+}
+
+header .nav-menu ul li.nav-item {
+    display: list-item;
+    margin: 0;
+    padding-top: 2px;
+    float: left;
+}
+
+header .nav-menu ul li.nav-item:first-child {
+    margin-right: 61px;
+    margin-top: 28px;
+}
+
+header .nav-menu ul li.nav-item:nth-child(2) {
+    margin-right: 99px;
+    margin-top: 28px;
+}
+
+header .nav-menu ul li.nav-item:nth-child(3) {
+    margin-right: 96px;
+    padding-top: 0;
+}
+
+header .nav-menu ul li.nav-item:nth-child(4) {
+    margin-right: 73px;
+    margin-top: 28px;
+}
+
+header .nav-menu ul li.nav-item:nth-child(5) {
+    margin-top: 28px;
+}
+
+
+header .nav-menu ul li.nav-item a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Gothamrounded;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+
+header .title {
+    width: 1024px;
+    height: 143px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 234px;
+    margin-bottom: 221px;
+}
+
+header .title h1 {
+    width: 1024px;
+    height: 44px;
+    font-size: 36px;
+    font-family: Gothamrounded;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5.7px;
+    padding-left: 10px;
+    margin-bottom: 7px;
+}
+
+header .title p {
+    width:1024px;
+    height: 19px;
+    font-size: 16px;
+    font-family: Gothamrounded;
+    font-weight: normal;
+    color: #fff;
+    text-transform: lowercase;
+    letter-spacing: 2.4px;
+    margin-bottom: 26px;
+}
+
+header .title button {
+    width: 166px;
+    height: 47px;
+    font-size: 12px;
+    font-family: Gothamrounded;
+    font-weight: bold;
+    color: #fff;
+    background: #16a085;
+    text-transform: uppercase;
+    padding-top: 18px;
+    padding-right: 0;
+    padding-bottom: 14px;
+    padding-left: 0;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    border: none;
+}
+
+header .title button a {
+    font-size: 12px;
+    font-family: Gothamrounded;
+    font-weight: bold;
+    width: 166px;
+    text-decoration: none;
+    color: white;
+}
+
+header .icons {
+    width:1024px;
+    height: 31px;
+    text-align: center;
+    margin-bottom: 17px;
+
+}
+
+header .icons a {
+    display: inline-block;
+}
+
+header .icons a {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+header .icons a:first-child {
+    padding-left-left: 0;
+}
+
+header .icons a:last-child {
+    padding-right-right: 0;
+}
+/*---------------------------------------------------------------*/
+
+.block1 {
+    display: block;
+    background: url("pictures/pic3.png") no-repeat center top;
+    background-size: 100%;
+    width: 1280px;
+    height: 470px;
+    margin: auto;
+    padding-top: 110px;
+    padding-bottom: 0px;
+}
+
+
+.block1 .article {
+    width: 1024px;
+    margin: auto;
+}
+
+.block1 .article h2 {
+    font-size: 18px;
+    font-family: GothamRounded;
+    font-weight: bold;
+    color: #16a085;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.block1 .article pre {
+    font-size: 12px;
+    font-family: Gothamrounded;
+    font-weight: lighter;
+    color: #373737;
+    letter-spacing: 1.8px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.block1 .article button {
+    width: 193px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: GothamRounded;
+    font-weight: bold;
+    color: white;
+    background: #16a085;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 19px;
+    padding-bottom: 18px;
+    border: none;
+    margin-top: -40px;
+}
+
+.block2 {
+    display: block;
+    background: url("pictures/pic4.png") no-repeat center top;
+    background-size: 100%;
+    width: 1280px;
+    height: 558px;
+    margin: auto;
+    z-index: 1;
+    padding-top: 141px;
+}
+
+.block2 .article {
+    width: 450px;
+    float: right;
+    margin-right: 65px;
+}
+
+.block2 .article h2 {
+    font-size: 18px;
+    font-family: Gothamrounded;
+    font-weight: bold;
+    color: #16a085;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+    line-height: 23px;
+    margin-bottom: 34px;
+}
+
+.block2 .article pre {
+    height: 110px;
+    margin-bottom: 36px;
+    line-height: 22px;
+    letter-spacing: 1.8px;
+    margin-left: 2px;
+    font-size: 12px;
+    font-family: Gothamrounded;
+    font-weight: lighter;
+    color: #373737;
+}
+
+.block2 .article button {
+    margin-bottom: 43px;
+    text-align: left;
+    padding-left: 43px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    letter-spacing: 2px;
+    border-radius: 0;
+    width: 193px;
+    font-size: 12px;
+    font-family: Gothamrounded;
+    font-weight: bold;
+    color: #fff;
+    background: #16a085;
+    text-transform: uppercase;
+    border: none;
+}
+
+.block2 .article .date p {
+    font-size: 12px;
+    font-family: Gothamrounded;
+    font-weight: bold;
+    color: #373737;
+    letter-spacing: 2px;
+}
+
+.block2 .article .date ul {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.block2 .article .date ul li {
+    display: inline-block;
+}
+
+.block2 .article .date ul li:first-child {
+    margin-right: 5px;
+}
+
+.block2 .article .date ul li:nth-child(2) {
+    margin-left: 5px;
+}
+
+.block3 {
+    display: block;
+    background: url("pictures/pic10.png") no-repeat center top;
+    background-size: 100%;
+    width: 1280px;
+    height: 483px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 115px;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.block3 .arrows {
+    float: right;
+    margin-top: -2px;
+    height: 41px;
+}
+
+.block3 .arrows ul {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.block3 .arrows ul li {
+    display: inline-block;
+}
+
+.block3 .arrows ul li:first-child {
+    margin-right: 5px;
+}
+
+.block3 .arrows ul li:nth-child(2) {
+    margin-left: 5px;
+}
+
+.block3 .wow {
+    clear: both;
+}
+
+.block3 .community {
+    width: 178px;
+    text-align: center;
+    float: left;
+    margin-right: 80px;
+    padding-top: 44px;
+}
+
+.block3 .community img {
+    margin-bottom: 24px;
+}
+
+.block3 .community h3 {
+    color: #373737;
+    font-size: 16px;
+    font-family: Gothamrounded;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    margin-bottom: 19px;
+}
+
+.block3 .community pre {
+    font-size: 10px;
+    font-family: Gothamrounded;
+    font-weight: normal;
+    color: #373737;
+    letter-spacing: 1.5px;
+    line-height: 12px;
+}
+
+.block3 .content > img:nth-child(2) {
+    margin-right: 20px;
+}
+
+.block4 {
+    display: block;
+    background: url("pictures/pic11.png") no-repeat center top;
+    background-size: 100%;
+    width: 1280px;
+    height: 790px;
+    margin: auto;
+    text-align: center;
+    padding-top: 350px;
+
+}
+
+.block4 h1 {
+    color: white;
+    font-size: 24px;
+    font-family: Gothamrounded;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    margin-bottom: 28px;
+}
+
+.block4 form {
+    padding: 0;
+    margin: auto;
+    border: none;
+    height: 62px;
+    display: block;
+    width: 343px;
+}
+
+.block4 form input.email {
+    float: left;
+    border: none;
+    height: 62px;
+    width: 280px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    letter-spacing: 2.3px;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: #373737;
+    font-size: 16px;
+    font-family: Gothamrounded;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.block4 button {
+    float: left;
+    padding: 0;
+    margin: 0;
+    height: 62px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    width: 63px;
+    background: url("pictures/pic12.png");
+    border: none;
+}
+
+.block5 {
+    display: block;
+    background: url("pictures/pic13.png") no-repeat center top;
+    background-size: 100%;
+    width: 1280px;
+    height: 392px;
+    margin: auto;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 115px;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.block5 h1 {
+    color: #373737;
+    font-size: 20px;
+    font-family: Gothamrounded;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 6px;
+}
+
+.block5 pre {
+    color: #373737;
+    font-size: 12px;
+    font-family: Gothamrounded;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 21px;
+    letter-spacing: 1.8px;
+    height: 63px;
+    margin-bottom: 43px;
+}
+
+
+.block5 .download {
+    text-align: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 1024px;
+    height: 56px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.block5  .download a:first-child {
+    margin-right: 27px;
+}
+
+.block5  .download a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: Gothamrounded;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #1abc9c;
+    float: left;
+    width: 296px;
+    height: 56px;
+    border-radius: 3px;
+}
+
+.block5 .download a p {
+    float: left;
+    width: 240px;
+    text-align: left;
+    padding-top: 21px;
+    padding-left: 25px;
+    letter-spacing: 2.2px;
+}
+
+.block5 .download a:last-child p {
+    padding-top: 19px;
+    letter-spacing: 3px;
+    padding-left: 27px;
+
+}
+
+footer {
+    display: block;
+    background-size: 100%;
+    width: 1280px;
+    height: 132px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    padding-right: 128px;
+    padding-left: 128px;
+}
+
+footer .text {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    height: 57px;
+    display: block;
+
+}
+
+footer .text ul {
+    float: left;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    height: 21px;
+}
+
+footer .text ul li {
+    border-right: 1px solid #16a085;
+    float: left;
+    display: list-item;
+}
+
+footer .text ul li a {
+    color: #373737;
+    font-size: 14px;
+    font-family: Gothamrounded;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 9px;
+    display: block;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+footer .text ul li:first-child a {
+    padding-left: 0;
+    padding-right: 9px;
+}
+
+footer .text ul li:nth-child(2) a {
+    padding-right: 9px;
+    padding-left: 10px;
+}
+
+footer .text ul li:last-child a {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+footer .text ul li:last-child {
+    border-right: none;
+}
+
+footer .text p {
+    color: #373737;
+    font-size: 14px;
+    font-family: Gothamrounded;
+    font-weight: bold;
+    letter-spacing: 2.1px;
+    display: block;
+}
+
+footer .wow {
+    clear: both;
+}
+
+footer img {
+    width: 53px;
+    height: 55px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -56px;
+    display: block;
+}
